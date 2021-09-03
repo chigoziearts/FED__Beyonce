@@ -40,11 +40,11 @@ www.Beyonce.com + /black-parade-route
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage  
-<img src="images/BeyonceHomepage" width="375px" alt="omschrijving van de pagina">
+<img src="images/BeyonceHomepage.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Black Parade Route: Directory of Black Owned Businesses
-<img src="images/BeyonceBlackParadeRoute" width="375px" alt="omschrijving van de pagina">
+<img src="images/BeyonceBlackParadeRoute.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
