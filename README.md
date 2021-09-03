@@ -43,7 +43,7 @@ Homepage
 <img src="images/BeyonceHomepage.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Black Parade Route: Directory of Black Owned Businesses
+Black Parade Route: Directory of Black Owned Businesses <br>
 <img src="images/BeyonceBlackParadeRoute.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
