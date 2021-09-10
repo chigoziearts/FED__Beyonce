@@ -67,7 +67,7 @@ Black Parade Route: Directory of Black Owned Businesses <br>
 <img src="images/HamburgerSchets.png" width="375px" alt="breakdown van het hamburger menu/navigatie">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/FilterSchets" width="375px" alt="breakdown van het zoek en filter menu de webshop">
+<img src="images/FilterSchets.png" width="375px" alt="breakdown van het zoek en filter menu de webshop">
 
 </details>
 
