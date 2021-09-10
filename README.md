@@ -32,6 +32,8 @@ Extra aandacht voor de surface laag
 
 ## Je website
 
+>>https://chigoziearts.github.io/FED__Beyonce/ 
+
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
@@ -58,13 +60,14 @@ Black Parade Route: Directory of Black Owned Businesses <br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/IndexSchets.png" width="375px" alt="breakdown van de hele hoofdpagina">
+<img src="images/BlackParadeRouteSchets.png" width="375px" alt="breakdown van de hele secundaire pagina (webshop)">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/HamburgerSchets.png" width="375px" alt="breakdown van het hamburger menu/navigatie">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/FilterSchets" width="375px" alt="breakdown van het zoek en filter menu de webshop">
 
 </details>
 
