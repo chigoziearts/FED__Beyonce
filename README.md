@@ -60,18 +60,18 @@ Black Parade Route: Directory of Black Owned Businesses <br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-Breakdown van de hele hoofdpagina
+Breakdown van de hele hoofdpagina <br>
 <img src="images/IndexSchets.png" width="375px" alt="breakdown van de hele hoofdpagina">
 
-Breakdown van de hele secundaire pagina (webshop)
+Breakdown van de hele secundaire pagina (webshop) <br>
 <img src="images/BlackParadeRouteSchets.png" width="375px" alt="breakdown van de hele secundaire pagina (webshop)">
 
 ### dynamisch deel (bijv menu): 
-Breakdown van het hamburger menu/navigatie
+Breakdown van het hamburger menu/navigatie <br>
 <img src="images/HamburgerSchets.png" width="375px" alt="breakdown van het hamburger menu/navigatie">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-Breakdown van het zoek en filter menu de webshop
+Breakdown van het zoek en filter menu de webshop <br>
 <img src="images/FilterSchets.png" width="375px" alt="breakdown van het zoek en filter menu de webshop">
 
 </details>
