@@ -71,7 +71,7 @@ Breakdown van het hamburger menu/navigatie <br>
 <img src="images/HamburgerSchets.png" width="375px" alt="breakdown van het hamburger menu/navigatie">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-Breakdown van het zoek en filter menu de webshop <br>
+Breakdown van het zoek en filter menu van de webshop <br>
 <img src="images/FilterSchets.png" width="375px" alt="breakdown van het zoek en filter menu de webshop">
 
 </details>
