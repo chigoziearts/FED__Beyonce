@@ -131,15 +131,20 @@ main{
   color: var(--mainColor);
 }
 
+div.menudicht{
+  display: none;
+}
+
 div.menu nav{
   height: 100%;
+  transition: 2s;
 }
 
 div.menu {
   /* max-width: 100%; */
   /* display: flex; */
   /* flex-wrap: wrap; */
-  /* display: none; */
+  display: flex;
   position: fixed;
   top: calc(var(--headerheight) - 4em);
   left: 0;
@@ -152,7 +157,7 @@ div.menu ul{
   /* display: none; */
   list-style-type: none;
   margin: 0;
-  padding: 10% 0 0;
+  padding: 5% 0 0;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -171,6 +176,10 @@ div.menu li{
   align-items: center;
 }
 
+div.menu li:last-of-type{
+  padding-bottom: 5%;
+}
+
 div.menu a{
   color: var(--seconColor);
   font-family: 'Palanquin Dark', sans-serif;
@@ -183,7 +192,8 @@ div.menu span{
   background-color: var(--mainColor);
   color: var(--seconColor);
   flex-grow: 1;
-  margin-left: 10%;
+  flex-basis: 33%;
+  text-align: center;
   padding-top: 5%;
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 0.8em;
@@ -209,6 +219,10 @@ div.menu span{
   #TheGift{
 
     margin: 0;
+  }
+
+  header{
+    height: unset;
   }
 
 }

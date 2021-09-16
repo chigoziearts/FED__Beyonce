@@ -86,7 +86,11 @@ Breakdown van het zoek en filter menu van de webshop <br>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Eigenlijk gind de twede week vrij soepel. Gisteren had ik wel veel moeite om me tot het huiswerk te zetten, maar deze kon ik in de les goed inhalen. Zelfstandig gaat het coderen met css ook een stuk soepeler dan in vorige jaren. Maar ik heb zeker de hulp nodig van mijn netwerk en student assistenten, om elementen goed te stijlen. Het moeilijkste deze week was het goed stijlen van de header, en het menu vandaag. Ik blijf alleen een probleem houden met het JS stukje dat ervoor moet zorgen dat dit menu goed functioneerd.
+
+<img src="images/headershot.png">
+<img src="images/headermobileshot.png">
+<img src="images/menushot.png">
 
 
 ### Agenda voor meeting
