@@ -102,14 +102,15 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+niet aan de orde gekomen
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Vervang de <br> tussende <span> op regel 29 voor twee apparte <span> elementen
+- Kijk geregeld of ik mijn code kan opschonen, om orde en overzicht te behouden naarmate er meer bijkomt
+- class selectors toevoegen in de html bij home, pagina2, main etc. om nette css te kunnen maken
+- Geef de imput elements labels, als verbetering van de site of op display: none
 
 </details>
 
@@ -123,7 +124,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week vond ik het moeilijker om me tot het huiswerk en de opdrachten te zetten. En ik heb ook wat minder harde voorderingen gemaakt met mijn site. Maar het is me wel gelukt om de twede pagina verder te css'en. Nu wil ik de komende week mijn css verder opschonenen terwijl ik de main en footer van de tweede pagina afmaak. Dan kan ik de week daarna de extra surface elementen verbeteren.
 
 
 ### Agenda voor meeting

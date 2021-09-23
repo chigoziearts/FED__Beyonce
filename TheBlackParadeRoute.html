@@ -10,40 +10,47 @@
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-		<a id="Hamburger" href="">
-			<svg></svg>
-		</a>
-		<h1>BEYONCÉ</h1>
-		<form>
-			<svg></svg>
+		<button id="Hamburger" href="">
+			<img src="images/menuwhite.svg"/>
+        </button>
+		<a href="index.html"><h1>BEYONCÉ</h1></a>
+		<form class="header">  
+			<img src="images/loupe.svg"/>
+			<label>#</label>
 			<input type="search">
 		</form>
 		<a id="TheGift" href="">
-			<span>THE GIFT <br> DELUXE EDITION</span>
-			<img src="images/TheGift.png">
+			<span>THE GIFT <br> 
+			DELUXE EDITION</span>
+			<img id="GiftPicture" src="images/TheGift.png"/>
 		</a>
 	</header>
    
-    <main>
+    <main class="pagetwo">
         <h2>THE BLACK PARADE ROUTE</h2>
-        <b>DIRECTORY OF BLACK OWNED BUSINESSES</b>
-        <form>
-            <label>SEARCH</label>
-            <svg></svg>
-            <input type="search">
-        </form>
-        <form>
-            <label>FILTER BY</label>
-            <svg></svg>
-            <select name="dropdown" id="dropdown">
-                <option value="all">all</option>
-            </select>
-        </form>
-        <button>Previous</button>
-        <button>Next</button>
+        <h2>DIRECTORY OF BLACK OWNED BUSINESSES</h2>
+        <div class="filtermenu">
+            <form class="main">
+                <label>SEARCH</label>
+                <!-- <svg></svg> -->
+                <input type="search">
+            </form>
+            <form class="main">
+                <label>FILTER BY</label>
+                <!-- <svg></svg> -->
+                <select name="dropdown" id="dropdown">
+                    <option value="all">all</option>
+                </select>
+            </form>
+        </div>
+        <button><< Previous</button>
+        <button>Next >></button>
         <ul>
             <li>
                 <img src="images/JamaicanCuisine.jpg">
@@ -88,5 +95,26 @@
         </ul>
         <span>Posted On:<a>month date, year</a></span>
     </footer>
+
+    <div class="menudicht">
+		<nav>
+			<ul>
+				<li><a href="#">MUSIC</a></li>
+				<li><a href="#">TOUR</a></li>
+				<li><a href="#">#BEYGOOD</a></li>
+				<li><a href="TheBlackParadeRoute.html">BLACK PARADE</a></li>
+				<li><a href="#">IVY PARK</a></li>
+				<li><a href="#">#22DAYS</a></li>
+				<li><a href="#">VAULT</a></li>
+				<li><a href="#">SHOP</a></li>
+				<li><a href="#">JOIN</a></li>
+				<span>FOLLOW</span>
+				<span>TERMS</span>
+				<span>PRIVACY</span>
+			</ul>
+		</nav>
+	</div>
+
+	<script src="scripts/script.js"></script>
 </body>
 </html>

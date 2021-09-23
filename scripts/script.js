@@ -10,5 +10,6 @@ hamburgerknop.addEventListener('click', menuopen);
 
 function menuopen(){
     navigatie.classList.toggle("menu");
-}
 
+    // navigatie.classList.
+}
