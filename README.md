@@ -140,9 +140,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- Gebruik css selectoren beter 
+- ID maar 1 keer per pagina, liever een class gebruiken voor "TheGift"
+- Nagaan of er KamelCasing ergens ontbreekt/ mijn html en css netjes leesbaar zetten
 - ...
 
 </details>
@@ -159,10 +159,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Central Field Loss
+Deze beperking zorgt voor een verlies van het zicht centraal in het gezichtsveld.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Op de originele site had ik de volgende opmerkingen:
+homepage: De grote content is fijn, want alleen de boven, onder en zijkanten waren goed zichtbaar. 
+pagetwo: De kleine grijze catagorie tekst is slecht te lezen.
+algemeen: Op desktop is er nog genoeg breedte om langs de blinde vlek te kijken. Maar voor mobiel is een smal scherm extra moeijlijk. Hiervoor is een hoog contrast mogelijke compensatie. Zoals een 'nightmode'.
 
 
 #### Titel tweede bevinding. 
