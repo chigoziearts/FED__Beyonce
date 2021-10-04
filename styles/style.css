@@ -14,7 +14,7 @@
   --headerheight: 10em;
   --font: 'Palanquin Dark', sans-serif;
   --font2: 'Open Sans' , sans-serif;
-  --highcontrast: blueviolet
+  --highcontrast: blueviolet;
   ;
 }
 
@@ -90,7 +90,7 @@ header{
   justify-content: center;
   width: 7em;
   /* max-width: 6em; */
-  height: 7.5em;;
+  height: 7.5em;
   /* border-style: dashed; */
   background-color: var(--mainColor);
   /* position: fixed;
@@ -305,7 +305,7 @@ form.main{
   flex-wrap: wrap;
   justify-content: flex-start;
   margin-left: 1em;
-  margin-right: 1em;;
+  margin-right: 1em;
 }
 
 form.main:first-of-type{
