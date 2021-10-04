@@ -164,26 +164,42 @@ Deze beperking zorgt voor een verlies van het zicht centraal in het gezichtsveld
 
 Op de originele site had ik de volgende opmerkingen:
 homepage: De grote content is fijn, want alleen de boven, onder en zijkanten waren goed zichtbaar. 
+
 pagetwo: De kleine grijze catagorie tekst is slecht te lezen.
+
 algemeen: Op desktop is er nog genoeg breedte om langs de blinde vlek te kijken. Maar voor mobiel is een smal scherm extra moeijlijk. Hiervoor is een hoog contrast mogelijke compensatie. Zoals een 'nightmode'.
+Op de homepage zou de content het beste focal points plaatsen aan de zijkanten dan centraal in het midden van de visuals.
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Low Contrast 
+Deze beperking zorgt voor een vertroebeld zicht. Waardoor dingen een laag contrast krijgen. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Op de originele site had ik de volgende opmeringen:
+Kleur bloed voorbij de randen van afbeeldingen en balken/knoppen.
+De grijze <span> in de content blokjes zijn slecht leesbaar.
+Bold tekst is beter leesbaar.
+Op de homepage is de felle omlijning fijn als afbakeing. 
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Perifiral Vision Loss 
+Bij deze beperking kan je eigenlijk niks meer zien behalve een kleine focus punt in het midden van je zicht. Hierdoor moet je harder werken met je ogen om een oppervlakte te skannen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Op de originele site had ik de volgende opmerkingen:
+Zoals zij andere beperkingen is een goed contrast belangrijk voor de leesbaarheid, maar ook de groepering en hiarchy en layout van de elementen op een pagina zijn belangrijk om te helpen met skannen tijdens het lezen. 
+Te kleine tekst en icoontjes zijn moeizaam te lezen en grijze tekst zou ik vervangen.
+Net als bij beperking1 zou een spreiding over links en rechts van de visual content op de homepage, met name in desktop stand helpen met de leesbaarheid.
+
+#### Met ScreenReader 
+De screenreader functie in Ms Edge heb ik gebruikt om te testen hoe mijn site wordt ervaren door deze gebruikersgroep.
+
+Op de originele site had ik de volgende opmerkingen:
+De navigatie en search knoppen worden over geslagen waardoor een persoon die de screenreader gebruikt niet zou kunnen navigeren op mijn site. Echter is de twede pagina wel begrijpelijk en overzichtelijk met de screenreader. 
+
+#### Met Tab knop 
+Met de tab knop kan een persoon met slechte motoriek door mijn site heen klikken. Door de html elementen verschillende states te geven krijgt deze gebruiker feedback en zo kunnen ze mijn site gebruiken met het toetsenboord.
+
+Op de originele site had ik de volgende opmerkingen:
+De volgorde/ hiarchy van de html elementen klopt niet waardoor je niet chronologisch door de site heen kan klikken. Daarnaast zijn de navigatie en zoekknop niet bruikbaar en worden overgeslagen door de tab knop. Op mijn eigen site is de navigatie knop wel te gebruiken maar is dit slecht zichtbaar.
 
 </details>
 
@@ -197,7 +213,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Deze week ging goed. Ik heb voortgang gemaakt met het responsive maken van mijn site, en heb het gevoel dat dit gaat lukken voor de oplevering. Daarnaast ga ik nog deze week werken aan de states, animaties en andere interacties die ik nog wil verwerken in de site. En wordt het even de vraag hoe ik dit ga implementeren naast de feedback die ik nog wil verwerken. Wat correcte semantiek en nette css betreft.
 
 
 ### Agenda voor meeting
@@ -213,10 +229,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- <a> niet leeglaten, vul de href="#"
+- Voeg alt tekst toe aan <img> 
+- classes gebruiken vs pseudo selectors, check waar dit beter kan
+- Een href weghalen
 
 </details>
 
@@ -249,8 +265,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/snippets/css/complete-guide-grid/ > Hulp bij grid
+2. https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page > Button instellingen
+3. https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode > Info over darkmode
+4. https://zellwk.com/blog/style-hover-focus-active-states/ > Stylinge states
+5. https://www.flaticon.com/free-icon/instagram_1384015?term=instagram&page=1&position=6&page=1&position=6&related_id=1384015&origin=search > Flaticon opensource svg images: hamburger, search, link, social media 
 
 </details>

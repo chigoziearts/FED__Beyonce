@@ -14,6 +14,8 @@
   --headerheight: 10em;
   --font: 'Palanquin Dark', sans-serif;
   --font2: 'Open Sans' , sans-serif;
+  --highcontrast: blueviolet
+  ;
 }
 
 a{
@@ -61,7 +63,7 @@ img {
 body{
 
   margin:0;
-
+  background-color: var(--seconColor);
 }
 
 /* --header--  */
@@ -98,39 +100,84 @@ header{
   border-radius: 0px
 }
 
+/* --uitkappen hamburger menu-- */
+
+#Hamburger:focus{
+  outline: solid 5px var(--backgroundColor);
+}
+
+#Hamburger:hover{
+  border-bottom: solid 5px var(--accents);
+}
+
 #Hamburger img{
-    width: 2em;
+  width: 2em;
     /* align-self: center; */
+}
+
+.menudicht li:focus{
+  
+  outline: solid 5px var(--backgroundColor);
+}
+
+.menudicht li:hover{
+  border-bottom: solid 5px var(--accents);
 }
 
 header label{
   display: none;
 }
 
+/* --Input Search uitklappen--  */
+
 form img{
   width: 2em;
 }
-
-/* --Input Search uitklappen--  */
 
 header input {
   display: none;
 }
 
-header input:focus{
-
+header button{
+  outline: none;
+  background-color: var(--seconColor);
+  border: none;
+  /* height: 5px; */
+  /* width: 1px; */
 }
 
-header input:hover{
-
+header button:focus{
+  outline: solid 5px var(--backgroundColor);
 }
 
-header input::placeholder{
-
+header button:hover{
+  border-bottom: solid 5px var(--accents);
 }
+
 
 header input.searching{
   display: inline-block;
+  height: 50%;
+  width: 100%;
+  /* max-width: 33%; */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin: none;
+  padding: 2em;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  background-color: var(--mainColor);
+  color: var(--seconColor);
+  font-family: var(--font2);
+  font-size: 1.6em;
+}
+
+header input::placeholder{
+  color: var(--seconColor);
+  font-family: var(--font2);
+  font-size: 1em;
 }
 
 form:first-of-type{
@@ -171,6 +218,33 @@ a.TheGift span{
   color: var(--mainColor);
 }
 
+/* --animatie TheGift link-- */
+
+@keyframes GiftAnimation{
+  0%{
+    padding: 1em;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+  100%{
+    padding: 0.6em;
+    box-shadow: 0px 0px 69px gold;
+    border-radius: 69px;
+  }
+}
+
+a.TheGift :hover{
+  animation: GiftAnimation;
+  animation-duration: 1.5s;
+  /* animation-iteration-count: 1; */
+  animation-timing-function: cubic-bezier();
+}
+
+a.TheGift :focus{
+  outline: solid 5px var(--backgroundColor);
+  border: none;
+}
+
 /* -- main -- */
 
 main.homepage{
@@ -186,7 +260,7 @@ main.homepage{
   background-color: var(--backgroundColor) ;
 }
 
-.feed {
+img.feed {
 width: calc(100vw - 20px);
 margin: 20px;
 border: solid var(--accents) 10px;
@@ -194,6 +268,14 @@ border: solid var(--accents) 10px;
 
 }
 
+img.feed:hover{
+  border-bottom: solid 5px var(--accents);
+}
+
+img.feed img:focus{
+  outline: solid 5px var(--backgroundColor);
+  /* border: double var(--accents) 5px */
+}
 /* --main--pagetwo-- */
 
 main.pagetwo{
@@ -209,11 +291,11 @@ main.pagetwo button{
 }
 
 main.pagetwo button:first-of-type{
-  color: grey;
+  color:var(--highcontrast);
 }
 
 main.pagetwo button:nth-of-type(3){
-  color: grey;
+  color:var(--accents);
 }
 
 form.main{
@@ -322,7 +404,7 @@ li span{
   font-family: var(--font2);
     /* font-size: 0.8em; */
     /* font-weight: normal; */
-    color: grey;
+    color:var(--highcontrast);
   width: 100%;
 }
 
@@ -594,3 +676,10 @@ div.menu span{
 
 }
 
+@media (prefers-color-scheme: dark){
+ root{ --mainColor: white;
+  --seconColor: black;
+  --backgroundColor: yellow;
+  --accents: gold;
+ }
+}

@@ -17,7 +17,7 @@ function menuopen(){
 }
 
 
-var vergrootglas = document.querySelector("form.header")
+var vergrootglas = document.querySelector("form.header button")
 var zoekknop = document.querySelector("header input");
 
 vergrootglas.addEventListener('click', zoekbalk);
